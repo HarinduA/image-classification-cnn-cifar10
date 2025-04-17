@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import os
 
-# Check if results directory exists, if not, create it
+# Check if results directory exists or not, if not, create it
 if not os.path.exists("results"):
     os.makedirs("results")
 
